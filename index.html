@@ -9,31 +9,78 @@
 			background-color:aliceblue;
 		}
 		.head{
-			width:600px;
-			margin:5em auto;
+			width:800px;
+			margin:1em auto;
 			padding:20px;
 			border-radius:2em;
 			text-align:center;
 			background-color:burlywood;
 		}
 		
-		a{
-			text-decoration:none;
+		.ver-nav{
+			position:absolute;
+			left:300px;
+			top:140px;
 		}
 		
-		#Hopper{
-			position:absolute;
-			top:50px;
-			left:900px;
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
 		}
+				
+		li a {
+			display: block;
+			width:100px;
+			background-color: #dddddd;
+			text-decoration: none;
+			padding: 8px 15px;
+			color:#5F3031;
+			border-radius:0em;
+			text-align: center;
+		}
+		
+		li a:hover{
+			background-color:#555;
+			color: white;
+		}
+		
+		.page {
+			position:relative;
+			left:480px;
+			margin-bottom:2em;
+			width:500px;
+					
+		}
+		
+		
 	</style>
 </head>
 
 <body>
 <div class="head">
 <h1>Site slogan: We design everything!</h1>
-<p>Feel free to post projects!</p>
 </div>
-<img src="https://www.kasandbox.org/programming-images/avatars/Hopper-jumping.gif" id="Hopper"/>
+<div class="ver-nav">
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#web">Web</a></li>
+	<li><a href="#interior">Interior</a></li>
+	<li><a href="#cover">Cover</a></li>
+</ul>
+<img src="Hopper-jumping.gif" alt="Hopper-jumping" />
+</div>
+<div class="page" id="home">
+	<img src="home.jpg" width="95%" alt="home-instruments"/>
+</div>
+<div class="page" id="web">
+	<img src="web-design.png" width="95%" alt="web-design" />	
+</div>
+<div class="page" id="interior">
+	<img src="interior.jpg" width="95%" alt="interior" />
+</div>
+<div class="page" id="cover">
+	<img src="cover.jpg" width="95%" alt="cover" />
+</div>
 </body>
 </html>
