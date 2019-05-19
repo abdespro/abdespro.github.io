@@ -1,0 +1,16 @@
+body{
+  margin:0;
+}
+.main-container{
+  position:absolute;
+  top:25%;
+  left:25%;
+}
+
+.im-my-pic{
+  position:absolute;
+  top:80px;
+  left:25px;
+  width:120px;
+  height:140px;
+}
